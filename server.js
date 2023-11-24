@@ -394,8 +394,8 @@ app.put("/cars/:id", async (req, res) => {
 
 
 // GET all hotels
-app.listen(4000, () => {
-    console.log("Node API app is running on Port 4000");
+app.listen(8000, () => {
+    console.log("Node API app is running on Port 8000");
 });
 
 app.get("/hotel", async(req, res)=>{
